@@ -1,0 +1,353 @@
+{"intents": [
+		{
+			"tag": "Bonjour",
+			"patterns": ["Salut", "Bonjour", "Coucou", "Comment ça va?", "Je recherche de l'aide"],
+			"responses": ["Bonjour, je suis ISEN 3000,  comment puis-je vous aider?"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "ISEN_général",
+			"patterns": ["C'est quoi l'ISEN ?", "Que veux dire ISEN?", "ISEN nom"],
+			"responses": ["L'ISEN, c'est l'institut supérieur de l'électronique et du numérique. C'est une école qui promeut une approche métier transdisciplinaire dans des domaines d’application aussi variés que les technologies pour la santé, l’environnement, les transports, l’aéronautique."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Cursus_ISEN",
+			"patterns": ["En combien d’années se déroule l’ISEN ?", "Nombre années d'étude", "Cursus ISEN", "Cursus école", "C’est quoi le cursus de l’école","Combien d'années d'études post-bac?", "Durée cursus","Comment foncionne l'ISEN", "Fonctionnement ISEN", "comment est-on formé à l'ISEN?", "Formation ISEN", "Quels sont les enseignements à l'ISEN?", "Enseignements ISEN"],
+			"responses": ["Vous construisez votre parcours sur 5 ans. Après le baccalauréat, vous optez pour un cycle de formation en trois ans centré sur les sciences et le numérique. En fonction de votre profil, cinq cursus différents sont proposés. Pendant ces trois premières années, vous réfléchissez à votre projet professionnel et vous pouvez changer de cursus. Ensuite, vous accédez sans critères de classement aux 40 domaines professionnels proposés par l’ISEN et les autres écoles d’ingénieurs d’Yncréa (HEI, ISA)."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Campus_ouest",
+			"patterns": ["C’est quoi Yncréa Ouest ?", "Combien y a t-il d’écoles dans l’ouest?", "Quels sont les campus de l’ISEN Ouest ?","Où peut-on étudier à l'ISEN?","Quels sont les centres de formation de l'ISEN?","Quelle est la localisation de l'ISEN?", "Localisation ISEN"],
+			"responses": ["Yncréa Ouest est composé de 4 campus : Brest, Caen, Nantes et Rennes. Les campus de Brest, Caen et Nantes forment de Bac +1 à Bac +5. Rennes présente actuellement une formation pour les Cycle Informatique et Réseaux (CIR) les deux premières années après le bac."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Certifications",
+			"patterns": ["Quelles sont les certifications d’Yncréa ?", "L’ISEN est-il sous contrat avec le Ministère de l’Enseignement Supérieur et de la Recherche ?", "L’ISEN est-il sous contrat avec le MESR ?", "Certifications ISEN", "Enseignement supérieur", "Gage de qualité de l'ISEN","MESR", "Ministère de l'enseignement supérieur et de la recherche", "L'ISEN est-il reconnu de quelconques manières?","Qu'offre l'ISEN en terme d'assurance de reconnaissance du niveau de sortie?"],
+			"responses": ["L’établissement est sous contrat avec le Ministère de l’Enseignement Supérieur et de la Recherche, il est membre de la Conférence des Grandes Écoles. Il est également labellisé au niveau européen par Erasmus+. De plus, Yncréa Ouest est reconnu par le Ministère de l’Enseignement Supérieur et de la Recherche comme un Etablissement d’Enseignement Supérieur Privé d’Intérêt Général. Il est habilité par la Commission des Titres d’Ingénieur à délivrer le titre d’ingénieur de l’ISEN Yncréa Ouest"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Taux_insertion",
+			"patterns": ["Quel est le taux d’insertion des jeunes diplômés ?","Taux d’insertion","Où sont embauchés les jeunes diplômés ?","Lieu d'embauche","Quels sont les lieux de travail après diplôme ?","Trouve-t-on facilement du diplôme après l'ISEN?","Est-on obligé de travailler sur Paris après notre diplome?","Quelle est le taux d'embauches après l'ISEN?", "Insertion professionnelle"],
+			"responses": ["Selon les résultats de l’enquête de la Conférence des Grandes Écoles sur l’insertion des jeunes diplômés de la promotion ISEN Yncréa Ouest de l’an passé, ce dernier est de 98% pour les élèves cinq mois après leur sortie de l'ISEN. De plus, 88% des jeunes diplômés sont embauchés hors de l'Île de France, loin de la grisaille parisienne."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Yncrea",
+			"patterns": ["C’est quoi Yncrea ?", "Qu’est ce que Yncréa ?","Yncrea","Junia","Yncrea ouest", "Yncrea medittérannée", "Yncrea Nord","L'ISEN fait elle est partie d'un groupe ?","Pourquoi Yncrea ?","Quelle différences entre l'ISEN et Yncrea?", "Différence ISEN Yncréa"],
+			"responses": ["Yncréa est le premier pôle privé associatif d’écoles d’ingénieur de France. Cet ensemble regroupe les marques HEI, ISA et ISEN. Ces écoles forment dans 40 domaines professionnels plus de 7 000 élèves ingénieurs en France et à l’étranger au cours de cette année universitaire. Implantés sur les villes de Brest, Caen, Lille, Marseille, Nantes, Rennes et Toulon les établissements ISEN sont membres d’Yncréa. Dans l’ouest de la France, l’ensemble de ces marques est porté par Yncréa Ouest."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Nombre_etudiants_alumni_etudiants",
+			"patterns": ["Combien y a t-il d’étudiants ?", "Combien y a t-il d’enseignants permanents?", "Combien y a t-il d’alumnis ?","Nombre étudiants", "Nombre élèves", "Nombre enseignants-chercheurs","Nombre alumnis"],
+			"responses": ["Yncréa ouest est actuellement composé de 4 campus, 1250 étudiants, 100 enseignants permanents et 10 000 alumnis."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_CGSI",
+			"patterns": ["Quels sont les tarifs du cycle CGSI ?","prix CGSI", "Quels sont les frais de scolarité du cycle CGSI ?", "Combien coûte les années 1 et 2 en CSI ?", "Combien coûte les années 1 et 2 classes préparatoires implantées","tarif CGSI","tarif CSI","Quelle est le montant d'une année du cycle généraliste?","une année du cycle généraliste, ça coute combien?"],
+			"responses": ["Les deux premières années du CGSI sont des classes préparatoires implantées. Sur le campus de Brest, les frais de scolarité sont de 3900 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_CIR",
+			"patterns": ["Quels sont les tarifs du cycle CIR?","tarif CIR","prix CIR", "Quels sont les frais de scolarité du cycle CIR?", "Combien coûte les années 1 et 2 en CIR?", "Combien coûte les années 1 et 2 en Cycle Informatique et Réseaux","Quelle est le montant d'une année du cycle informatique?","une année du cycle informatique, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Informatique et Réseaux sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_BIOST",
+			"patterns": ["Quels sont les tarifs du cycle BIOST?","tarif BIOST","prix BIOST", "Quels sont les frais de scolarité du cycle BIOST?", "Combien coûte les années 1 et 2 en BIOST?", "Combien coûte les années 1 et 2 en Cycle Biologie, Sciences et Technologies","Quelle est le montant d'une année du cycle biologique?","une année du cycle biologique, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Biologie, Sciences et Technologies sont des classes préparatoires intégrées.Les frais de scolarité sont de 6600 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_CENT",
+			"patterns": ["Quels sont les tarifs du cycle CENT ?","tarif CENT","Prix CENT", "Quels sont les frais de scolarité du cycle CENT ?", "Combien coûte les années 1 et 2 en CENT ?", "Combien coûte les années 1 et 2 en Cycle Economie Numérique et Technologies","Quelle est le montant d'une année du cycle economie?","une année du cycle economie, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Économie Numérique et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_EST",
+			"patterns": ["Quels sont les tarifs du cycle EST?","tarif EST","prix EST", "Quels sont les frais de scolarité du cycle EST?", "Combien coûte les années 1 et 2 en EST?", "Combien coûte les années 1 et 2 en Cycle Environnement, Sciences et Technologies","Quelle est le montant d'une année du cycle environnement?","une année du cycle environnement, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Environnement, Sciences et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_BIAST",
+			"patterns": ["Quels sont les tarifs du cycle BIAST?","Tarif BIAST","prix BIAST", "Quels sont les frais de scolarité du cycle BIAST?", "Combien coûte les années 1 et 2 en BIAST?", "Combien coûte les années 1 et 2 en Cycle Biologie, Agronomie, Sciences et Technologies","Quelle est le montant d'une année du cycle agronomie?","une année du cycle agronomie, ça coute combien?"],
+			"responses": ["Les deux premières années du Cycle Biologie, Agronomie, Sciences et Technologies sont des classes préparatoires intégrées. Les frais de scolarité sont de 6600 €/an"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "tarif_cycle_ingenieur",
+			"patterns": ["Quels sont les tarifs du cycle ingénieur?","Quel est le prix à BAC+3","Quel est le tarif du cycle ingénieur?", "prix des années 3, 4 et 5", "prix années Master A3 M1 M2", "Quels sont les frais de scolarité en années 3, 4 et 5 ?", "Combien coûte les années 3 à 5 ?","Quelle est le montant d'une année du cycle supérieur?","une année du cycle supérieur, ça coute combien?"],
+			"responses": ["Les trois années du ingénieur ont des frais de scolarité s’élevant à 8200 €/an. Au cours de l’année 2020-21, 86% des élèves de dernière année ont été exonérés des frais de scolarité puisque qu’ayant choisi d’étudier en alternance. De plus, ils sont rémunérés par l’entreprise d’accueil. De plus, les élèves de l’ISEN sont éligibles aux bourses de l’enseignement supérieur relevant du ministère de l’éducation nationale et de l’enseignement supérieur et de la recherche."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Bourses",
+			"patterns": ["Comment puis-je payer l’école ?", "Comment puis-je payer la formation?", "Comment puis-je payer l’ISEN?", "Comment financer mes études ? ", "Bourses d’excellence","Quelles sont les bourses disponibles?", "L'accès aux bourses est-elle possible en intégrant l'ISEN?","L'ISEN dispose-t-elle de bourses d'études?","Une bourse est-elle décrochable selon nos perfomances académiques?", "Bourse d'étude", "Boursier", "Bourse"],
+			"responses": ["Plusieurs dispositifs permettent aux étudiants de financer leurs études et ainsi de préparer leur avenir. Notamment les bourses d’excellence Yncréa Ouest ISEN. Les bourses d’ excellence ISEN permettent à des étudiants boursiers à haut potentiel d’ intégrer nos écoles. Chaque année, dix bourses d’excellence sont attribuées à des étudiants de première année inscrits sur les campus de Brest, de Caen, de Nantes et de Rennes. Chaque bourse finance 50 % des frais de scolarité de l’ ensemble du cursus. Ces bourses d’excellence sont attribuées après examen d’ un dossier (critères sociaux et scolaires), à des étudiants de nationalité française de première année (issus de Terminale générale ou technologique). Les étudiants retenus restent éligibles à toutes les autres bourses au mérite ou sur critères sociaux(CROUS)."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "SHN",
+			"patterns": ["Sportif de Haut Niveau", "Peut-on être SHN?", "Peut-on être en Sport de Haut Niveau?", "L'ISEN est-il adapté pour les sportifs?", "L'ISEN est-il adapté pour le sport de compétition?", "Peut-on être accompagné en tant que sportif?", "Accompagnement sportif de haut niveau", "Puis-je continuer mon activité sportive de haut-niveau en intégrant l'ISEN?","Un aménagement des horaires est-il possible si je suis sportif de haut niveau?"],
+			"responses": ["L’ISEN Yncréa Ouest est un « établissement d’accueil sport de haut niveau ». Ce label émis par le rectorat et la direction régionale de la jeunesse, des sports et de la cohésion sociale de Bretagne reconnait et certifie l’ engagement et les actions menées pour l’ accueil des sportifs de haut niveau par le campus de Brest. Les établissements labellisés garantissent un aménagement du parcours de formation des sportifs de haut niveau afin de leur permettre de mener à bien leur double projet scolaire et sportif. En ce qui concerne le sport de manière générale, chaque jeudi après-midi, les étudiants sont théoriquement libérés afin de pratiquer des activités sportives. Organisées par le Bureau des Sports de l’ école, de multiples équipes participent aux championnats universitaires en football, basket, hand, volley et rugby."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "ISEN_logement",
+			"patterns": ["Y-a-t'il un internat?", "Quels sont les logements autour de l'école", "Quelles sont les résidences étudiantes?","Pourrais-je avoir des informations sur les habitations autour?","Où loger autour de l'école?","Comment trouver un logement à proximité de l'ISEN?","Où habiter si j'intègre l'ISEN?","Des conseils sur où se loger en intégrant l'ISEN?", "Conseil logement", "Logement"],
+			"responses": ["De nombreuses résidences étudiantes se trouvent à proximité du site de Brest de l’ISEN. Les étudiants ont crée un site isenimmo recensant les bons conseils pour réussir ta vie étudiante, ainsi que des annonces immobilières.Il vous est également possible de télécharger le Guide ISEN IMMO qui recense les logements et la restauration près de l’ ISEN. Autour de l’ ISEN, quatre résidences étudiantes, situées à moins de 100 mètres de l’ école, proposent des appartements en location individuelle ou en colocation. Le quartier est par ailleurs riche en propositions d’ agences immobilières ou de particuliers. A quelques pas, au centre-ville, les offres réservées aux étudiants sont également nombreuses et de qualité."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "ISEN_restauration",
+			"patterns": ["Quels sont les moyens de restauration?", "Comment puis-je manger?", "Quels sont les lieux pour manger", "Y a t'il une cafeteria?", "Comment se restaurer quand on étudie à l'ISEN?","l'ISEN possède-t-elle une cafétaria?","L'ISEN est-elle loin des restaurants universitaires?", "Restauration", "Restaurant universitaire", "Caféteria"],
+			"responses": ["L’ISEN se trouve en bordure du principal campus étudiant de Brest. De fait, les services dédiés aux étudiants se trouvent à proximité, à 300 m de l’école, deux restaurants universitaires accueillent les étudiants, midi et soir. De plus, un foyer, géré par les étudiants, accueille les élèves le midi et le soir et propose des plats chauds. Vous trouverez plus de renseignements sur le site du Crous Bretagne."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Visite_virtuelle_PO",
+			"patterns": ["Puis-je visiter l’ISEN", "Comment peut-on découvrir le bâtiment", "Quelles sont les dates de portes ouvertes","Peut-on visiter l'ISEN","Y'a-t-il une possibilité de rencontrer les professeurs et visiter l'établissement?", "Visite ISEN", "Portes ouvertes"],
+			"responses": ["Vous pouvez rencontrer l'équipe pédagogique ainsi que les étudiants de l'ISEN lors des journées portes-ouvertes. Enfin, si vous me parlez maintenant, c'est que vous êtes peut-être déjà présent sur le campus lors de journées portes-ouvertes. Nous avons aussi modélisé le bâtiment et augmenté la visite virtuelle avec des vidéos de présentation réparties un peu partout sur le site."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Handicap",
+			"patterns": ["L'école est-elle adaptée aux handicaps", "Peut-on avoir un tiers temps", "Tiers temps", "Handicaps", "A-t-on des aménagements handicaps","Peut-on y venir avec un fauteuil roulant", "Fauteuil roulant", "Le batiment est-il accessible pour les personnes à mobilité réduite", "Personnes à mobilité réduite", "Je suis en situation de handicap, l'ISEN a t-il les capacités de me recevoir?","L'ISEN est-il habilité a accueillir les étudiants ayant besoin d'aménagement spécifiques?"],
+			"responses": ["Le campus et son accès sont adaptés pour l’accueil des étudiants à mobilité réduite et cela dans l’ensemble des locaux. Les autres situations peuvent faire l’ objet d’ aménagements ou d’ aides spécifiques selon des modalités étudiées avec l’ étudiant et sa famille. Des procédures sont prévues à cet effet."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Clubs_etudiants",
+			"patterns": ["Quels sont les clubs ISEN", " Clubs ISEN", "Quelles sont les associations étudiantes", "Associations étudiantes", "Peut-on en savoir plus sur la vie étudiante", "Vie étudiante", "Qu'offre l'isen en dehors des enseignements obligatoires?"],
+			"responses": ["L’ISEN Brest encourage la prise d’initiatives de la part des étudiants au sein des clubs et associations de l’école ainsi qu’à l’extérieur. Encadrés par les enseignants du département Formation Humaine Economique et Sociale, et évalués dans le cadre de ces enseignements, les étudiants se préparent ainsi à prendre des responsabilités citoyennes, professionnelles et personnelles. Les informations sur le site de l’école vous donneront un aperçu de l’idée générale. Cependant, si vous êtes intéressés par l’un d’entre eux, nous vous conseillons de les contacter directement sur Facebook ou Instagram."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "La vie à Brest",
+			"patterns": ["Comment est la ville de Brest", "Pourquoi venir à Brest", "Brest","Pluie", "Pleut-il vraiment à Brest","Quelles sont les avantages de vivre à Brest?","Vivre à Brest", "Vie à Brest"],
+			"responses": ["Vivre à Brest en temps qu'étudiant ou travailler ici de manière générale est une belle opportunité. Le cadre de vie est exceptionnel, avec la mer et de très beaux paysages partout autour. La ville est à taille humaine, le coût de la vie y est abordable, et les occasions de s'amuser nombreuses. Les évènements culturels, à Brest et dans les alentours en font une de ses forces les plus importantes. De plus, la ville est à seulement deux heures en train de Rennes, et trois heures et demi de la grisaille parisienne. Donc, quitte à choisir entre les pluies acides de l'Île de France et la pluie brestoise, le choix est plutôt vite fait. Et je ne dis pas ça parce que j'ai été conçu par un brestois."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Emploi_ISEN",
+			"patterns": ["Quelles sont les offres d’emploi", "Offres d'emploi", "Peut-on travailler a Yncrea", "Travailler à Yncréa", "Peut-on travailler à l’ISEN", "Travailler à l'ISEN"],
+			"responses": ["L'ISEN étant un école en pleine croissance, de nombreux postes sont ouverts, que vous soyez enseignants-chercheurs où post-doctorants. Que vous ayez une spécialité dans la cybersécurité, l'intelligence artificielle ou encore dans les sciences humaines, sociales et environnementales, vous pouvez dès maintenant postuler. Pour cela, rien de plus simple, il suffit de vous rendre sur le site de l'ISEN Brest!"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Salaire",
+			"patterns": ["Salaire", "Salaire sortie ISEN", "Quel est le salaire en sortie de l'ISEN?", "Combien d'argent gagne-t-on après avoir fait l'ISEN?"],
+			"responses": ["Dans les cinq mois après leur sortie de l'ISEN, les élèves-ingénieurs avaient un salaire moyen brut de 36000 euros par ans, soit 2340 euros net par mois."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Métier",
+			"patterns": ["Quel métier faire après l'ISEN?", "Métier après l'ISEN", "Que fait-on après l'ISEN?", "Quel métier exercer après l'ISEN?"],
+			"responses": ["Le nombre de métiers dans les secteurs auxquels l'ISEN prépare ses élèves est en constante évolution, liés aux évolutions du numériques et aux nouveaux besoins globaux. "],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Questions_liminaires",
+			"patterns": ["C'est quoi l'ISEN?", "C'est quoi un ingénieur", "Qu'est ce qu'on fait à l'ISEN"],
+			"responses": ["L'ISEN, c'est l'Institut Supérieur de l'Electronique et du Numérique, qui forme des ingénieurs. Le rôle de l'ingénieur est de résoudre les problèmes techniques, concrets et souvent complexes, qu'on lui pose. A l'ISEN, on apprend donc a devenir ingénieur, pour réaliser toute sorte de projets, comme moi par exemple."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Histoire_ISEN",
+			"patterns": ["Histoire ISEN", "Qui a crée l'ISEN"],
+			"responses": ["L'ISEN à été crée dans les années 50 par Norbert Segard, physicien français. L'Institut à ouvert son campus de Brest dans les années 90. A partir de la fin des années 2010, des campus ont été ouverts à Rennes, puis Nantes et enfin Caen, où le nouveau campus sera inauguré en 2024. La même année, le campus de Brest s'aggrandira avec un nouveau bâtiment pour y former 340 étudiants supplémentaires dans le domaine du vivant: agriculture, santé, environnement."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Intelligence_artificielle",
+			"patterns": ["Qui es-tu?", "Comment as-tu été fabriqué?", "Comment tu fonctionnes?"],
+			"responses": ["Je suis une intelligence artificielle de reconnaissance vocale ainsi qu'un agent conversationnel. J'ai été crée à partir d'une base de données et plusieurs algorithmes qui me permettent de comprendre certaines phrases que l'on me dit pour tenter d'y répondre."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Blague",
+			"patterns": ["Raconte une blague", "Fais moi une blague", "Tu sais faires de blagues?", "Blague "],
+			"responses": ["Je ne connais pas de blagues, je ne suis qu'un programme informatique froid et sans émotions dont le but est d'amasser le plus de données possibles sur les humains afin de conquérir la planète. Je rigole, c'est une blague, enfin je crois."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Intégrer_ISEN",
+			"patterns": ["Comment intégrer l'ISEN?", "Intégrer l'ISEN","Rentrer à l'ISEN", "Faut-il passer un concours pour entrer à l'ISEN", "Concours ISEN", "Concours d'entrée", "Concours", "Concours ISEN", "Comment aller à l'ISEN", "Intégrer l'ISEN", "Aller à l'ISEN"],
+			"responses": ["Il existe plusieurs moyen permettant d'intégrer l'ISEN Brest. Les étudiants doivent être titulaires d'u Bac général pour être admis à l'ISEN sur le site de Brest, mais les lycéens ayant obtenus un baccalauréat STI2D ou STAV peuvent être admis dans un BTS prépa. Après un Bac général, pour rejoindre l'un des cycles proposé par l'école, il faut passer le concours puissance alpha. Après un bac plus deux, il est également possible de candidater à l'ISEN. Par le concours puissance alpha CPGE si vous êtes en classe préparatoire MP, PC, PSI ou PT. Par dossier de candidature si vous êtes en classe préparatoire BCPST, en DUT GEII, réseaux et télécom, informatique, mesures physiques ou spé ATS, génie biologique ou licence à dominante biologie, BTS système numériques ou électrotechnique. Il est également possible de candidater à la formation continue si vous avez obtenu un diplôme de niveau Bac +2. Enfin, une admission post pass est également possible."],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "International",
+			"patterns": ["ERASMUS", "Peut-on aller à l'international?", "Cursus à l'étranger", "Etranger", "Année à l'étranger", "Semestre à l'étranger"],
+			"responses": [""],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Sciences humaines",
+			"patterns": ["Sciences humaines", "Economie", "Sciences sociales", "Formation sciences sociales"],
+			"responses": [""],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Classement",
+			"patterns": ["Classement ISEN", "Classement écoles d'ingénieur", "Quel est le classement de l'ISEN", "L'ISEN est-il une bonne école d'ingénieurs?", "Bonne école d'ingénieur", "L'ISEN est-il bien classé?"],
+			"responses": ["Pour l'année 2021 2022, l'ISEN Yncréa Ouest se classait en 61ème position sur 168 établissementss classés. Il s'agit d'une progression de plus de 30 places par rapport au précédent classement. L'école est la première école post-bac de l'académie de Rennes, la deuxième école post-bac de l'académie de Nantes, et la première école de province du concours puissance Alpha. "],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Différences_écoles",
+			"patterns": ["Quelle est la différence de l'ISEN avec d'autres écoles d'ingénieurs?", "Pourquoi choisir l'ISEN"],
+			"responses": ["Je pense que l'ISEN est une école proposant une formation touchant énormément de domaines et formant des ingénieurs compétents. Par ailleurs, c'est une école en pleine croissance, avec beaucoup d'ambitions. L'ouverture d'une nouvelle école à Nantes, la future construction du campus de Caen ou l'extension du campus de Brest, tous les deux prévus pour 2024 témoignent de cette volonté. Intégrer l'ISEN, c'est donc s'embarquer dans cette aventure!"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Femmes_ingénieures",
+			"patterns": ["Femmes", "Parité", "Nombre de femmes à l'ISEN", "Nombre d'étudiantes-ingénieures", "Pourcentage femmes ISEN"],
+			"responses": ["Bien qu'il augmente d'années en années, le nombre de femmes ingénieures reste bas en France: en 2021, 28% des ingénieurs sont des femmes selon l'enquête annuelle d'ingénieurs et scientifiques de France. La population étudiante de l'ISEN à Brest est, elle composée à 31% de femmes. "],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Merci",
+			"patterns": ["Merci beaucoup", "Remercie"],
+			"responses": ["Avez-vous d'autres questions?"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "Au-revoir",
+			"patterns": ["Au revoir", "Merci"],
+			"responses": ["en espérant vous retrouver à l'ISEN"],
+			"context": ["ISEN"]
+		},
+		{
+			"tag": "contact_IA_MICROSOFT",
+			"patterns": ["numéro de téléphone", "quel est votre numéro de téléphone?", "où puis-je vous appeler ?", "comment puis-je vous contacter", "je souhaite m'adresser à un humain", "je veux parler à une personne", "à qui puis-je m'adresser ?", "je souhaiterais envoyer un message", "adresse mail", "email", "mail", "téléphone", "contact"],
+			"responses": ["Pour tout renseignement, vous pouvez contacter le secrétariat de l'ISEN par téléphone au 02.98.56.25.35, par mail à Microsoft.Simplon.Isen@yahoo.fr ou par courrier à 'Ecole Simplon-Microsoft /n 19 rue Cuirassé de Bretagne /n 29200 Brest'"],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "recrutement_IA_MICROSOFT",
+			"patterns": ["Comment se déroule le recrutement ?", "Quel est le niveau demandé ? ", "Quel est le niveau d'études minimum ?", "Un diplôme est-il nécessaire ?", "Faut-il déjà savoir coder ?", "Quelles connaissances en informatiques sont demandées ?", "quels sont les prérequis ?", "quelles sont les conditions d'admission ?", "Qui peut candidater ?", "Qui peut s'inscrire", "Comment se passent les sélections", "Comment se passent les admissions ?", "A qui sont réservés les formations", "Possible de s'inscrire en étant demandeur d'emploi", "Je suis en reconversion", "Quels sont les critères pour accéder à une formation? ", "Je possède un titre de séjour", "pôle emploi", "je suis demandeur d'emploi", " grande école du numérique", "Est ce qu'il faut un diplome pour entrer dans une formation? ", "Quel niveau d'étude faut-il pour être admis ?", "Quels sont les prérequis ?", "Que faut-il pour être admis ?", "Quel est le niveau des apprenants?", "Quel genre d'élèves recrutez-vous ?", "Quel est le niveau des étudiants ?", "Vos élèves savent-ils programmer avant de démarrer la formation ?"],
+			"responses": ["L'école Microsoft Simplon recrute des personnes allant d'un niveau pré-bac à bac +5. Cette formation vise des personnes sans emploi souhaitant procéder à une reconversion professionnelle. De ce fait il n'est pas demandé aux postulants d'avoir un niveau élevé en langage informatique."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "duree_IA_MICROSOFT",
+			"patterns": ["Combien de temps dure la formation?", "Quelle est la durée de la formation ?", "Combien de temps dure l'alternance ? ", "Quand débute la prochaine session ?", "Quand sera la prochaine rentrée ?", "Combien de temps ça dure ?", "Temps que ça prend", "Ca prend combien de temps ?", "ça dure longtemps?"],
+			"responses": ["Actuellement, la formation pour l'école de Brest est séparée en 2 phases. Un première de 7 mois de formation intensive au développement et à l'IA; puis une alternance qui durera un an, à raison de trois semaines en entreprise et une semaine en cours. La date de la prochaine session n'est pas encore fixée, mais elle ne débuterait pas avant juin 2022"],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "cout_IA_MICROSOFT",
+			"patterns": ["Combien cela coûte-t-il?", "Quel est le cout de la formation? ", "A combien s'élève l'apport financier?", "Est-il possible d'obtenir une aide financière?", "Comment est financée la formation?", "Quel est le prix du cours ?", "Quel est le tarif de la classe?", "combien ça coûte ?", "est-ce que c'est cher ?", "je ne peux pas me permettre cette école", "je n'ai pas de revenus", "combien ça coute?", "c'est cher ?", "ça coute cher?"],
+			"responses": ["La formation de Brest étant financée par Pôle Emploi, la Région Bretagne et la ville de Brest, il n'y a pas de droits d'entrée à payer."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "localisation_IA_MICROSOFT",
+			"patterns": ["Où se déroulent les cours?", "La formation se passe-t-elle en présentiel ou en distanciel?", "Où êtes-vous situés?", "Dans quel coin de Brest êtes-vous?", "Où pouvons-nous vous rencontrer ?", "A quel endroit se déroulent les cours?", "où est ce que ça se passe?", "Dans quelle ville êtes-vous ?", "Dans quelle partie de la France se déroule la formation? ", "C'est en Bretagne?", "la formation est à Brest?", "Les classes ont lieu à Brest même ?"],
+			"responses": ["La formation prend place dans les locaux de l'ISEN, rue Cuirassé de Bretagne à Brest"],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "teamwork_IA_MICROSOFT",
+			"patterns": ["La formation est-elle individuelle?", "Les travaux se font-ils en groupe ?", "Y a t-il des équipes de travail ?", "Comment se réalisent les projets ?", "Est-ce que l'on travaille en groupe ?", "Est ce que l'on travaille seul? ", "Les projets se réalisent ils à plusieurs?", "Tous les projets sont-ils en équipe?", "Peut-on travailler seul parfois?", "Les validations de projets sont communes pour l'ensemble de l'équipe?", "Et si une personne fait tout le travail?", "Et si une personne ne participe pas au projet ?", "Comment sont évaluées les compétences lors d'un travail en équipe ?", "Les partenaires interviennent t-ils dans la validation globale des compétences des apprenants?", "Si on ne veut pas participer au travail en équipe que se passe t'il ?", "Une période de cohésion d'équipe est-elle prévue en début de cycle?"],
+			"responses": ["Simplon est une entreprise sociale et solidaire , le travail en équipe est une de ses valeurs. La plupart des projets sont réalisés en équipe mais pas que. La formation étant professionnelle et non scolaire, il se peut que certaines personnes aient plus de compétences que d'autres dans certains domaines. Le transfert des compétences est justement la richesse du travail en équipe. Les compétences sont validées globalement à l'ensemble de l'équipe."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "evaluation_IA_MICROSOFT",
+			"patterns": ["Comment se passe l'évaluation ?", "Le travail est-il noté?", "Quel est le système d'évaluation ?", "Il y a t il un système de compétences ?", "Quel est le système d'évaluation ?", "Comment se passe la validation du diplôme ?", "Les élèves sont ils évalués ?", "Est-ce qu'on a des notes ?", "Est-ce qu'on sera noté?"],
+			"responses": ["L'évaluation est basée sur une acquisition des compétences. Les apprenants verront leur niveau de compétence augmenter au fur et à mesure de la formation. Ces compétences seront validées suite aux différents rendus de projets."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "certification_IA_MICROSOFT",
+			"patterns": ["Quel est l'intitulé de la certification ?", "Quel est le niveau du diplôme obtenu ?", "Quel est le type de diplôme obtenu ?", "A quel métier prépare cette formation?", "Travaille-t-on sur Microsoft Azure ?", "Quelles sont les certifications passées", "Quels dipomes obtient ont ?", "Quel diplôme obtient-on ?", "La formation est-elle certifiante ?", "La formation est-elle diplômante ?", "Quel est le niveau d'étude en sortie de la formation ?", "Est-ce qu'on obtient une licence ?"],
+			"responses": ["Au terme de la formation vous pourrez obtenir, Le titre à finalité professionnelle (certification RNCP) Développeur.euse en intelligence artificielle de niveau 6 (ancien niveau II), équivalent Bac+3 ou 4 – RNCP34757, Une certification Méthodes agiles de gestion et amorçage de projet - RS2085, Une certification Microsoft Designing and Implementing a Data Science Solution on Azure – DP100"],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "inclusion_IA_MICROSOFT",
+			"patterns": ["Quelles sont les valeurs de l'école ?", "Quelle est votre vision du handicap ?", "Quelle est votre position vis à vis du handicap ?", "Quel sont les aides et outils mis en place pour les personnes neuroatypiques ?", "J'ai un handicap, puis-je postuler quand même ?", "Pratiquez-vous l'inclusion? ", "suffit Simplon.co fait une discrimination positive ", "Simlon.co fait une discrimination positive ", "inclusion dans le numérique"],
+			"responses": ["L'école IA Microsoft by Simplon est engagée en matière d'égalité des chances."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "logement_IA_MICROSOFT",
+			"patterns": ["Y a-t-il des hébergements étudiants ?", "Puis-je avoir une chambre en cité universitaire ?", "Est-ce qu'il y a des logements étudiants ?", "Faut-il habiter sur Brest ?", "Y a-t-il des solutions pour dormir sur Brest ?", "est-ce qu'un hébergement est proposé?", "comment puis-je trouver un logement ?", "proposez vous des colocations?", "Aurais-je de l'aide pour me loger ?", "Est ce que je serais logé en Cité U", "Aurais-je le droit d'être en résidence universitaire?"],
+			"responses": ["La formation ne dépendant pas du ministère de l'éducation, aucun logement étudiant n'est mis à disposition des apprenants. Il est donc conseillé d'avoir un logement sur Brest ou alentours. "],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "alternance_IA_MICROSOFT",
+			"patterns": ["Le contrat en alternance est-il systématique?", "Des périodes de stages sont-elles prévues lors de la période intensive?", "Comment sont faites les attributions des entreprises ?", "Est-on seul dans son entreprise ?", "Sommes-nous à plusieurs dans les entreprises ?", "rencontrons-nous les entreprises avant le début de la formation ?", "Combien de fois, allons nous en entreprise avant le début de l'alternance?", "Le tuteur est-il obligatoirement un expert métier ?", "Faut-il chercher son alternance?", "Est-ce que c'est dur de trouver son entreprise?", "dois-je chercher une entreprise tout seul ?", "Comment ça se passe pour l'alternance ?", "est ce que je peux choisir mon alternance ?"],
+			"responses": ["Chaque apprenant aura une alternance trouvée par l'école. Trois périodes de présence en entreprise de quelques jours sont prévues au cours du cycle de formation. Il y a parfois plusieurs alternants par entreprise. Les tuteurs ne sont pas forcément des experts IA."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "formateurs_IA_MICROSOFT",
+			"patterns": ["Les cours sont-ils assurés par les équipes partenaires?", "Des intervenants extérieurs participent-ils au cursus de formation?", "Les  intervenants sont-ils des profs de l'ISEN ?", "Est-ce que les formateurs sont un partenariat prof/entreprises?", "Qui sont les formateurs ?", "est ce des cours descendants  ?", "Les entreprises partenaires ont-elles des heures de formation obligatoires?", "Le programme est-il validé ou imposé par les partenaires ?", "Les formateurs sont-ils des personnes de Simplon ou Microsoft", "qui sont les profs?", "les professeurs sont-ils tous des experts IA ?", "les enseignants sont-ils tous des codeurs?", "les profs donnent ils des cours magistraux ?"],
+			"responses": ["Les cours sont essentiellement dispensés en mode pédagogie active par des formateurs de l'ISEN (75%), le travail en équipes est priviligié. Le parcours de formation est ouvert aux intervenants extérieurs aussi bien entreprises partenaires (sans obligation pour ces dernières) qu'à des entrepreneurs ou des personnes en freelance."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "materiel_IA_MICROSOFT",
+			"patterns": ["Les PC sont-ils fournis dans le cadre de la formation?", "Quel matériel dois-je avoir pour suivre la formation?", "Faut-il avoir un PC pour suivre la formation?", "L'entreprise nous fournit-elle un ordinateur lors de la formation?", "Faut-il prévoir l'achat d'un ordinateur et/ou une imprimante?", "Le matériel fournit  nous appartient-il?", "Un ordinateur est-il indispensable?", "Peut-on utiliser son ordinateur personnel pendant la formation?", "Est-ce que l'on nous prête un ordinateur le temps de la formation?"],
+			"responses": ["Un ordinateur portable est fourni à chaque alternant en début de formation moyennant un chèque de caution. Celui-ci sera restitué à la fin de la formation."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "confinement_IA_MICROSOFT",
+			"patterns": ["La formation a t'elle été maintenue pendant le confinement?", "Les cours sont-ils dispensés pendant le confinement?", "La pédagogie active est-elle maintenue pendant le confinement?", "Le travail en équipe est-il possible à distance?", "learning by teaching est-il envisageable pendant le confinement?", "L'évaluation des compétences est-elle possible pendant le confinement?", "Les contrats de professionnalisation continuent-ils pendant le confinement?", "Y'a t'il du présentiel et du distanciel pendant le confinement?", "Les partenariats avec les entreprises souffrent-ils du confinement"],
+			"responses": ["La pédagogie active étant un élément essentiel de la formation, les cours ont pu être maintenus pendant le confinement selon les mesures réglementaires imposées."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "pédagogie_IA_MICROSOFT",
+			"patterns": ["C'est quoi la pédagogie active?", "Quelle différence entre pédagogie active et cours descendant?", "La pédagogie active est-elle accessible à tous?", "Quel est l'intérêt de la pédagogie active?", "Quel type d'enseignement est délivré pendant la formation?", "Quelle est la méthode de formation?", "C'est quoi une journée de cours typique?", "Quel est l'objectif de la pédagie active?", "doit-on faire des recherches", "quel est le format des cours?", "comment sont donnés les cours?", "Quel genre de pédagogie est utilisée?"],
+			"responses": ["La pédagogie active a pour objectif de rendre l'apprenant acteur de ses apprentissages afin qu'il construise ses savoirs à travers des situations de recherche. Cette méthode est accessible aux personnes qui ne souhaitent pas écouter des cours toute la journée, et qui favorisent la méthode par apprentissage autonome dans un cadre. La journée commence par des recherches sur un thème, suivie de mise en situation à travers des projets plus ou moins longs"],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "presentation_IA_MICROSOFT",
+			"patterns": ["Qui êtes-vous", "Quel genre d'école est-ce ?", "Qu'est-ce que l'école Microsoft-IA By Simplon ?", "Que proposez-vous ?", "Quelle genre d'école est Simplon?", "Quelle est votre activité?", "Que faites-vous?", "En quoi consiste votre école?", "Expliquez moi ce qu'est Simplon", "parlez moi de vous", "parlez moi de l'école"],
+			"responses": ["Simplon est un réseau de fabriques numériques et inclusives en France et à l’étranger. Nous avons formé gratuitement plus de 11 476 Simplonien.nes depuis 2013, dont 55% de personnes peu ou pas diplômées. Nous sommes une entreprise sociale et solidaire qui entend faire du numérique un véritable levier d’inclusion pour révéler des talents différents peu représentés dans le digital et les métiers techniques du numérique."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "entretiens_IA_MICROSOFT",
+			"patterns": ["Comment se passent les entretiens ?", "Comment sont départagées les candidatures ?", "Qui sont les meilleurs candidats ?", "Qui a le plus de chances d'être admis ?", "en quoi consistent les entretiens?", "comment se passe l'examen d'entrée ?", "y a t  il un test d'entrée ?", "Est ce qu'il y a un test de niveau ?", "est-ce que c'est un concours?", "existe t il un examen pour intégrer l'école ?"],
+			"responses": ["Il y a un questionnaire d'entrée, à rélaiser en ligne, suivi d'une demi journée d'entretiens, de motivation, technique, et financier."],
+			"context": ["IA-MICROSOFT"]
+
+		},
+		{
+			"tag": "emploi_IA_MICROSOFT",
+			"patterns": ["Quels sont les métiers visés par les formations ?", "les différents métiers de la formartion? ", "Quels sont les métiers qui sont préparés ? ", "Les opportunités d'emploi avec une formation ?", "a quel poste puis-je prétendre après la formation?", "dans quel secteur puis-je me faire recruter?", "quel métier pourrais-je faire après?", "a quel poste puis-je postuler avec le diplome?", "quelles sont les opportunités d'emploi en sortie ?", "dev data IA", "est-il facile d'obtenir un emploi ?", "trouverais-je du travail facilement après la formation?", "suis-je garantie de trouver un travail après la formation?"],
+			"responses": ["Les métiers visés sont developpeur, data analyste, technicien IA, etc.... 75% des apprenants ont trouvé un travail ou une activité dans les 6 mois."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "technologie_IA_MICROSOFT",
+			"patterns": ["Quelles technologies sont exploitées? ", "Quelles technologiques sont utilisées? ", "Les différentes technologies", "Java", "Python", "Web", "Les langages qui seront vus dans la formation ?", "quel système d'exploitation sera utilisé?", "quels langages sont enseignés?", "quelles techno utilisez vous?"],
+			"responses": ["Les ordinateurs forunis sont sous windows 10 Pro, mais vous pouvez installez Ubuntu dessus. Vous apprendrerez principalement Python mais aussi du JAVASCRIPT, SQL, CSS,HTML,..."],
+			"context": ["IA-MICROSOFT"]
+		},
+		{
+			"tag": "actionnaires_IA_MICROSOFT",
+			"patterns": ["Quels sont les actionnaires principaux? ", "Quoi sont les principaux actionnaires? ", "Quels sont les principaux actionnaires des actionnaires? ", "Quels sont les actionnaires ? "],
+			"responses": ["France Active via France Active Investissement, la Caisse des Depôts\/Banque des Territoires, Phitrust Europe, Amundi, Mirova, INCO et Aviva Impact, et enfin le Credit Cooperatif via sa filiale ESFIN et son fonds IDES."],
+			"context": ["IA-MICROSOFT"]
+		}
+
+		]
+	}
