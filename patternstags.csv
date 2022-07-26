@@ -1,0 +1,499 @@
+,Patterns,Tags
+0,Salut,Bonjour
+1,Bonjour,Bonjour
+2,Coucou,Bonjour
+3,Comment ça va?,Bonjour
+4,Je recherche de l'aide,Bonjour
+5,C'est quoi l'ISEN ?,ISEN_général
+6,Que veux dire ISEN?,ISEN_général
+7,ISEN nom,ISEN_général
+8,En combien d’années se déroule l’ISEN ?,Cursus_ISEN
+9,Nombre années d'étude,Cursus_ISEN
+10,Cursus ISEN,Cursus_ISEN
+11,Cursus école,Cursus_ISEN
+12,C’est quoi le cursus de l’école,Cursus_ISEN
+13,Combien d'années d'études post-bac?,Cursus_ISEN
+14,Durée cursus,Cursus_ISEN
+15,Comment foncionne l'ISEN,Cursus_ISEN
+16,Fonctionnement ISEN,Cursus_ISEN
+17,comment est-on formé à l'ISEN?,Cursus_ISEN
+18,Formation ISEN,Cursus_ISEN
+19,Quels sont les enseignements à l'ISEN?,Cursus_ISEN
+20,Enseignements ISEN,Cursus_ISEN
+21,C’est quoi Yncréa Ouest ?,Campus_ouest
+22,Combien y a t-il d’écoles dans l’ouest?,Campus_ouest
+23,Quels sont les campus de l’ISEN Ouest ?,Campus_ouest
+24,Où peut-on étudier à l'ISEN?,Campus_ouest
+25,Quels sont les centres de formation de l'ISEN?,Campus_ouest
+26,Quelle est la localisation de l'ISEN?,Campus_ouest
+27,Localisation ISEN,Campus_ouest
+28,Quelles sont les certifications d’Yncréa ?,Certifications
+29,L’ISEN est-il sous contrat avec le Ministère de l’Enseignement Supérieur et de la Recherche ?,Certifications
+30,L’ISEN est-il sous contrat avec le MESR ?,Certifications
+31,Certifications ISEN,Certifications
+32,Enseignement supérieur,Certifications
+33,Gage de qualité de l'ISEN,Certifications
+34,MESR,Certifications
+35,Ministère de l'enseignement supérieur et de la recherche,Certifications
+36,L'ISEN est-il reconnu de quelconques manières?,Certifications
+37,Qu'offre l'ISEN en terme d'assurance de reconnaissance du niveau de sortie?,Certifications
+38,Quel est le taux d’insertion des jeunes diplômés ?,Taux_insertion
+39,Taux d’insertion,Taux_insertion
+40,Où sont embauchés les jeunes diplômés ?,Taux_insertion
+41,Lieu d'embauche,Taux_insertion
+42,Quels sont les lieux de travail après diplôme ?,Taux_insertion
+43,Trouve-t-on facilement du diplôme après l'ISEN?,Taux_insertion
+44,Est-on obligé de travailler sur Paris après notre diplome?,Taux_insertion
+45,Quelle est le taux d'embauches après l'ISEN?,Taux_insertion
+46,Insertion professionnelle,Taux_insertion
+47,C’est quoi Yncrea ?,Yncrea
+48,Qu’est ce que Yncréa ?,Yncrea
+49,Yncrea,Yncrea
+50,Junia,Yncrea
+51,Yncrea ouest,Yncrea
+52,Yncrea medittérannée,Yncrea
+53,Yncrea Nord,Yncrea
+54,L'ISEN fait elle est partie d'un groupe ?,Yncrea
+55,Pourquoi Yncrea ?,Yncrea
+56,Quelle différences entre l'ISEN et Yncrea?,Yncrea
+57,Différence ISEN Yncréa,Yncrea
+58,Combien y a t-il d’étudiants ?,Nombre_etudiants_alumni_etudiants
+59,Combien y a t-il d’enseignants permanents?,Nombre_etudiants_alumni_etudiants
+60,Combien y a t-il d’alumnis ?,Nombre_etudiants_alumni_etudiants
+61,Nombre étudiants,Nombre_etudiants_alumni_etudiants
+62,Nombre élèves,Nombre_etudiants_alumni_etudiants
+63,Nombre enseignants-chercheurs,Nombre_etudiants_alumni_etudiants
+64,Nombre alumnis,Nombre_etudiants_alumni_etudiants
+65,Quels sont les tarifs du cycle CGSI ?,tarif_CGSI
+66,prix CGSI,tarif_CGSI
+67,Quels sont les frais de scolarité du cycle CGSI ?,tarif_CGSI
+68,Combien coûte les années 1 et 2 en CSI ?,tarif_CGSI
+69,Combien coûte les années 1 et 2 classes préparatoires implantées,tarif_CGSI
+70,tarif CGSI,tarif_CGSI
+71,tarif CSI,tarif_CGSI
+72,Quelle est le montant d'une année du cycle généraliste?,tarif_CGSI
+73,"une année du cycle généraliste, ça coute combien?",tarif_CGSI
+74,Quels sont les tarifs du cycle CIR?,tarif_CIR
+75,tarif CIR,tarif_CIR
+76,prix CIR,tarif_CIR
+77,Quels sont les frais de scolarité du cycle CIR?,tarif_CIR
+78,Combien coûte les années 1 et 2 en CIR?,tarif_CIR
+79,Combien coûte les années 1 et 2 en Cycle Informatique et Réseaux,tarif_CIR
+80,Quelle est le montant d'une année du cycle informatique?,tarif_CIR
+81,"une année du cycle informatique, ça coute combien?",tarif_CIR
+82,Quels sont les tarifs du cycle BIOST?,tarif_BIOST
+83,tarif BIOST,tarif_BIOST
+84,prix BIOST,tarif_BIOST
+85,Quels sont les frais de scolarité du cycle BIOST?,tarif_BIOST
+86,Combien coûte les années 1 et 2 en BIOST?,tarif_BIOST
+87,"Combien coûte les années 1 et 2 en Cycle Biologie, Sciences et Technologies",tarif_BIOST
+88,Quelle est le montant d'une année du cycle biologique?,tarif_BIOST
+89,"une année du cycle biologique, ça coute combien?",tarif_BIOST
+90,Quels sont les tarifs du cycle CENT ?,tarif_CENT
+91,tarif CENT,tarif_CENT
+92,Prix CENT,tarif_CENT
+93,Quels sont les frais de scolarité du cycle CENT ?,tarif_CENT
+94,Combien coûte les années 1 et 2 en CENT ?,tarif_CENT
+95,Combien coûte les années 1 et 2 en Cycle Economie Numérique et Technologies,tarif_CENT
+96,Quelle est le montant d'une année du cycle economie?,tarif_CENT
+97,"une année du cycle economie, ça coute combien?",tarif_CENT
+98,Quels sont les tarifs du cycle EST?,tarif_EST
+99,tarif EST,tarif_EST
+100,prix EST,tarif_EST
+101,Quels sont les frais de scolarité du cycle EST?,tarif_EST
+102,Combien coûte les années 1 et 2 en EST?,tarif_EST
+103,"Combien coûte les années 1 et 2 en Cycle Environnement, Sciences et Technologies",tarif_EST
+104,Quelle est le montant d'une année du cycle environnement?,tarif_EST
+105,"une année du cycle environnement, ça coute combien?",tarif_EST
+106,Quels sont les tarifs du cycle BIAST?,tarif_BIAST
+107,Tarif BIAST,tarif_BIAST
+108,prix BIAST,tarif_BIAST
+109,Quels sont les frais de scolarité du cycle BIAST?,tarif_BIAST
+110,Combien coûte les années 1 et 2 en BIAST?,tarif_BIAST
+111,"Combien coûte les années 1 et 2 en Cycle Biologie, Agronomie, Sciences et Technologies",tarif_BIAST
+112,Quelle est le montant d'une année du cycle agronomie?,tarif_BIAST
+113,"une année du cycle agronomie, ça coute combien?",tarif_BIAST
+114,Quels sont les tarifs du cycle ingénieur?,tarif_cycle_ingenieur
+115,Quel est le prix à BAC+3,tarif_cycle_ingenieur
+116,Quel est le tarif du cycle ingénieur?,tarif_cycle_ingenieur
+117,"prix des années 3, 4 et 5",tarif_cycle_ingenieur
+118,prix années Master A3 M1 M2,tarif_cycle_ingenieur
+119,"Quels sont les frais de scolarité en années 3, 4 et 5 ?",tarif_cycle_ingenieur
+120,Combien coûte les années 3 à 5 ?,tarif_cycle_ingenieur
+121,Quelle est le montant d'une année du cycle supérieur?,tarif_cycle_ingenieur
+122,"une année du cycle supérieur, ça coute combien?",tarif_cycle_ingenieur
+123,Comment puis-je payer l’école ?,Bourses
+124,Comment puis-je payer la formation?,Bourses
+125,Comment puis-je payer l’ISEN?,Bourses
+126,Comment financer mes études ? ,Bourses
+127,Bourses d’excellence,Bourses
+128,Quelles sont les bourses disponibles?,Bourses
+129,L'accès aux bourses est-elle possible en intégrant l'ISEN?,Bourses
+130,L'ISEN dispose-t-elle de bourses d'études?,Bourses
+131,Une bourse est-elle décrochable selon nos perfomances académiques?,Bourses
+132,Bourse d'étude,Bourses
+133,Boursier,Bourses
+134,Bourse,Bourses
+135,Sportif de Haut Niveau,SHN
+136,Peut-on être SHN?,SHN
+137,Peut-on être en Sport de Haut Niveau?,SHN
+138,L'ISEN est-il adapté pour les sportifs?,SHN
+139,L'ISEN est-il adapté pour le sport de compétition?,SHN
+140,Peut-on être accompagné en tant que sportif?,SHN
+141,Accompagnement sportif de haut niveau,SHN
+142,Puis-je continuer mon activité sportive de haut-niveau en intégrant l'ISEN?,SHN
+143,Un aménagement des horaires est-il possible si je suis sportif de haut niveau?,SHN
+144,Y-a-t'il un internat?,ISEN_logement
+145,Quels sont les logements autour de l'école,ISEN_logement
+146,Quelles sont les résidences étudiantes?,ISEN_logement
+147,Pourrais-je avoir des informations sur les habitations autour?,ISEN_logement
+148,Où loger autour de l'école?,ISEN_logement
+149,Comment trouver un logement à proximité de l'ISEN?,ISEN_logement
+150,Où habiter si j'intègre l'ISEN?,ISEN_logement
+151,Des conseils sur où se loger en intégrant l'ISEN?,ISEN_logement
+152,Conseil logement,ISEN_logement
+153,Logement,ISEN_logement
+154,Quels sont les moyens de restauration?,ISEN_restauration
+155,Comment puis-je manger?,ISEN_restauration
+156,Quels sont les lieux pour manger,ISEN_restauration
+157,Y a t'il une cafeteria?,ISEN_restauration
+158,Comment se restaurer quand on étudie à l'ISEN?,ISEN_restauration
+159,l'ISEN possède-t-elle une cafétaria?,ISEN_restauration
+160,L'ISEN est-elle loin des restaurants universitaires?,ISEN_restauration
+161,Restauration,ISEN_restauration
+162,Restaurant universitaire,ISEN_restauration
+163,Caféteria,ISEN_restauration
+164,Puis-je visiter l’ISEN,Visite_virtuelle_PO
+165,Comment peut-on découvrir le bâtiment,Visite_virtuelle_PO
+166,Quelles sont les dates de portes ouvertes,Visite_virtuelle_PO
+167,Peut-on visiter l'ISEN,Visite_virtuelle_PO
+168,Y'a-t-il une possibilité de rencontrer les professeurs et visiter l'établissement?,Visite_virtuelle_PO
+169,Visite ISEN,Visite_virtuelle_PO
+170,Portes ouvertes,Visite_virtuelle_PO
+171,L'école est-elle adaptée aux handicaps,Handicap
+172,Peut-on avoir un tiers temps,Handicap
+173,Tiers temps,Handicap
+174,Handicaps,Handicap
+175,A-t-on des aménagements handicaps,Handicap
+176,Peut-on y venir avec un fauteuil roulant,Handicap
+177,Fauteuil roulant,Handicap
+178,Le batiment est-il accessible pour les personnes à mobilité réduite,Handicap
+179,Personnes à mobilité réduite,Handicap
+180,"Je suis en situation de handicap, l'ISEN a t-il les capacités de me recevoir?",Handicap
+181,L'ISEN est-il habilité a accueillir les étudiants ayant besoin d'aménagement spécifiques?,Handicap
+182,Quels sont les clubs ISEN,Clubs_etudiants
+183, Clubs ISEN,Clubs_etudiants
+184,Quelles sont les associations étudiantes,Clubs_etudiants
+185,Associations étudiantes,Clubs_etudiants
+186,Peut-on en savoir plus sur la vie étudiante,Clubs_etudiants
+187,Vie étudiante,Clubs_etudiants
+188,Qu'offre l'isen en dehors des enseignements obligatoires?,Clubs_etudiants
+189,Comment est la ville de Brest,La vie à Brest
+190,Pourquoi venir à Brest,La vie à Brest
+191,Brest,La vie à Brest
+192,Pluie,La vie à Brest
+193,Pleut-il vraiment à Brest,La vie à Brest
+194,Quelles sont les avantages de vivre à Brest?,La vie à Brest
+195,Vivre à Brest,La vie à Brest
+196,Vie à Brest,La vie à Brest
+197,Quelles sont les offres d’emploi,Emploi_ISEN
+198,Offres d'emploi,Emploi_ISEN
+199,Peut-on travailler a Yncrea,Emploi_ISEN
+200,Travailler à Yncréa,Emploi_ISEN
+201,Peut-on travailler à l’ISEN,Emploi_ISEN
+202,Travailler à l'ISEN,Emploi_ISEN
+203,Salaire,Salaire
+204,Salaire sortie ISEN,Salaire
+205,Quel est le salaire en sortie de l'ISEN?,Salaire
+206,Combien d'argent gagne-t-on après avoir fait l'ISEN?,Salaire
+207,Quel métier faire après l'ISEN?,Métier
+208,Métier après l'ISEN,Métier
+209,Que fait-on après l'ISEN?,Métier
+210,Quel métier exercer après l'ISEN?,Métier
+211,C'est quoi l'ISEN?,Questions_liminaires
+212,C'est quoi un ingénieur,Questions_liminaires
+213,Qu'est ce qu'on fait à l'ISEN,Questions_liminaires
+214,Histoire ISEN,Histoire_ISEN
+215,Qui a crée l'ISEN,Histoire_ISEN
+216,Qui es-tu?,Intelligence_artificielle
+217,Comment as-tu été fabriqué?,Intelligence_artificielle
+218,Comment tu fonctionnes?,Intelligence_artificielle
+219,Raconte une blague,Blague
+220,Fais moi une blague,Blague
+221,Tu sais faires de blagues?,Blague
+222,Blague ,Blague
+223,Comment intégrer l'ISEN?,Intégrer_ISEN
+224,Intégrer l'ISEN,Intégrer_ISEN
+225,Rentrer à l'ISEN,Intégrer_ISEN
+226,Faut-il passer un concours pour entrer à l'ISEN,Intégrer_ISEN
+227,Concours ISEN,Intégrer_ISEN
+228,Concours d'entrée,Intégrer_ISEN
+229,Concours,Intégrer_ISEN
+230,Concours ISEN,Intégrer_ISEN
+231,Comment aller à l'ISEN,Intégrer_ISEN
+232,Intégrer l'ISEN,Intégrer_ISEN
+233,Aller à l'ISEN,Intégrer_ISEN
+234,ERASMUS,International
+235,Peut-on aller à l'international?,International
+236,Cursus à l'étranger,International
+237,Etranger,International
+238,Année à l'étranger,International
+239,Semestre à l'étranger,International
+240,Sciences humaines,Sciences humaines
+241,Economie,Sciences humaines
+242,Sciences sociales,Sciences humaines
+243,Formation sciences sociales,Sciences humaines
+244,Classement ISEN,Classement
+245,Classement écoles d'ingénieur,Classement
+246,Quel est le classement de l'ISEN,Classement
+247,L'ISEN est-il une bonne école d'ingénieurs?,Classement
+248,Bonne école d'ingénieur,Classement
+249,L'ISEN est-il bien classé?,Classement
+250,Quelle est la différence de l'ISEN avec d'autres écoles d'ingénieurs?,Différences_écoles
+251,Pourquoi choisir l'ISEN,Différences_écoles
+252,Femmes,Femmes_ingénieures
+253,Parité,Femmes_ingénieures
+254,Nombre de femmes à l'ISEN,Femmes_ingénieures
+255,Nombre d'étudiantes-ingénieures,Femmes_ingénieures
+256,Pourcentage femmes ISEN,Femmes_ingénieures
+257,Merci beaucoup,Merci
+258,Remercie,Merci
+259,Au revoir,Au-revoir
+260,Merci,Au-revoir
+261,numéro de téléphone,contact_IA_MICROSOFT
+262,quel est votre numéro de téléphone?,contact_IA_MICROSOFT
+263,où puis-je vous appeler ?,contact_IA_MICROSOFT
+264,comment puis-je vous contacter,contact_IA_MICROSOFT
+265,je souhaite m'adresser à un humain,contact_IA_MICROSOFT
+266,je veux parler à une personne,contact_IA_MICROSOFT
+267,à qui puis-je m'adresser ?,contact_IA_MICROSOFT
+268,je souhaiterais envoyer un message,contact_IA_MICROSOFT
+269,adresse mail,contact_IA_MICROSOFT
+270,email,contact_IA_MICROSOFT
+271,mail,contact_IA_MICROSOFT
+272,téléphone,contact_IA_MICROSOFT
+273,contact,contact_IA_MICROSOFT
+274,Comment se déroule le recrutement ?,recrutement_IA_MICROSOFT
+275,Quel est le niveau demandé ? ,recrutement_IA_MICROSOFT
+276,Quel est le niveau d'études minimum ?,recrutement_IA_MICROSOFT
+277,Un diplôme est-il nécessaire ?,recrutement_IA_MICROSOFT
+278,Faut-il déjà savoir coder ?,recrutement_IA_MICROSOFT
+279,Quelles connaissances en informatiques sont demandées ?,recrutement_IA_MICROSOFT
+280,quels sont les prérequis ?,recrutement_IA_MICROSOFT
+281,quelles sont les conditions d'admission ?,recrutement_IA_MICROSOFT
+282,Qui peut candidater ?,recrutement_IA_MICROSOFT
+283,Qui peut s'inscrire,recrutement_IA_MICROSOFT
+284,Comment se passent les sélections,recrutement_IA_MICROSOFT
+285,Comment se passent les admissions ?,recrutement_IA_MICROSOFT
+286,A qui sont réservés les formations,recrutement_IA_MICROSOFT
+287,Possible de s'inscrire en étant demandeur d'emploi,recrutement_IA_MICROSOFT
+288,Je suis en reconversion,recrutement_IA_MICROSOFT
+289,Quels sont les critères pour accéder à une formation? ,recrutement_IA_MICROSOFT
+290,Je possède un titre de séjour,recrutement_IA_MICROSOFT
+291,pôle emploi,recrutement_IA_MICROSOFT
+292,je suis demandeur d'emploi,recrutement_IA_MICROSOFT
+293, grande école du numérique,recrutement_IA_MICROSOFT
+294,Est ce qu'il faut un diplome pour entrer dans une formation? ,recrutement_IA_MICROSOFT
+295,Quel niveau d'étude faut-il pour être admis ?,recrutement_IA_MICROSOFT
+296,Quels sont les prérequis ?,recrutement_IA_MICROSOFT
+297,Que faut-il pour être admis ?,recrutement_IA_MICROSOFT
+298,Quel est le niveau des apprenants?,recrutement_IA_MICROSOFT
+299,Quel genre d'élèves recrutez-vous ?,recrutement_IA_MICROSOFT
+300,Quel est le niveau des étudiants ?,recrutement_IA_MICROSOFT
+301,Vos élèves savent-ils programmer avant de démarrer la formation ?,recrutement_IA_MICROSOFT
+302,Combien de temps dure la formation?,duree_IA_MICROSOFT
+303,Quelle est la durée de la formation ?,duree_IA_MICROSOFT
+304,Combien de temps dure l'alternance ? ,duree_IA_MICROSOFT
+305,Quand débute la prochaine session ?,duree_IA_MICROSOFT
+306,Quand sera la prochaine rentrée ?,duree_IA_MICROSOFT
+307,Combien de temps ça dure ?,duree_IA_MICROSOFT
+308,Temps que ça prend,duree_IA_MICROSOFT
+309,Ca prend combien de temps ?,duree_IA_MICROSOFT
+310,ça dure longtemps?,duree_IA_MICROSOFT
+311,Combien cela coûte-t-il?,cout_IA_MICROSOFT
+312,Quel est le cout de la formation? ,cout_IA_MICROSOFT
+313,A combien s'élève l'apport financier?,cout_IA_MICROSOFT
+314,Est-il possible d'obtenir une aide financière?,cout_IA_MICROSOFT
+315,Comment est financée la formation?,cout_IA_MICROSOFT
+316,Quel est le prix du cours ?,cout_IA_MICROSOFT
+317,Quel est le tarif de la classe?,cout_IA_MICROSOFT
+318,combien ça coûte ?,cout_IA_MICROSOFT
+319,est-ce que c'est cher ?,cout_IA_MICROSOFT
+320,je ne peux pas me permettre cette école,cout_IA_MICROSOFT
+321,je n'ai pas de revenus,cout_IA_MICROSOFT
+322,combien ça coute?,cout_IA_MICROSOFT
+323,c'est cher ?,cout_IA_MICROSOFT
+324,ça coute cher?,cout_IA_MICROSOFT
+325,Où se déroulent les cours?,localisation_IA_MICROSOFT
+326,La formation se passe-t-elle en présentiel ou en distanciel?,localisation_IA_MICROSOFT
+327,Où êtes-vous situés?,localisation_IA_MICROSOFT
+328,Dans quel coin de Brest êtes-vous?,localisation_IA_MICROSOFT
+329,Où pouvons-nous vous rencontrer ?,localisation_IA_MICROSOFT
+330,A quel endroit se déroulent les cours?,localisation_IA_MICROSOFT
+331,où est ce que ça se passe?,localisation_IA_MICROSOFT
+332,Dans quelle ville êtes-vous ?,localisation_IA_MICROSOFT
+333,Dans quelle partie de la France se déroule la formation? ,localisation_IA_MICROSOFT
+334,C'est en Bretagne?,localisation_IA_MICROSOFT
+335,la formation est à Brest?,localisation_IA_MICROSOFT
+336,Les classes ont lieu à Brest même ?,localisation_IA_MICROSOFT
+337,La formation est-elle individuelle?,teamwork_IA_MICROSOFT
+338,Les travaux se font-ils en groupe ?,teamwork_IA_MICROSOFT
+339,Y a t-il des équipes de travail ?,teamwork_IA_MICROSOFT
+340,Comment se réalisent les projets ?,teamwork_IA_MICROSOFT
+341,Est-ce que l'on travaille en groupe ?,teamwork_IA_MICROSOFT
+342,Est ce que l'on travaille seul? ,teamwork_IA_MICROSOFT
+343,Les projets se réalisent ils à plusieurs?,teamwork_IA_MICROSOFT
+344,Tous les projets sont-ils en équipe?,teamwork_IA_MICROSOFT
+345,Peut-on travailler seul parfois?,teamwork_IA_MICROSOFT
+346,Les validations de projets sont communes pour l'ensemble de l'équipe?,teamwork_IA_MICROSOFT
+347,Et si une personne fait tout le travail?,teamwork_IA_MICROSOFT
+348,Et si une personne ne participe pas au projet ?,teamwork_IA_MICROSOFT
+349,Comment sont évaluées les compétences lors d'un travail en équipe ?,teamwork_IA_MICROSOFT
+350,Les partenaires interviennent t-ils dans la validation globale des compétences des apprenants?,teamwork_IA_MICROSOFT
+351,Si on ne veut pas participer au travail en équipe que se passe t'il ?,teamwork_IA_MICROSOFT
+352,Une période de cohésion d'équipe est-elle prévue en début de cycle?,teamwork_IA_MICROSOFT
+353,Comment se passe l'évaluation ?,evaluation_IA_MICROSOFT
+354,Le travail est-il noté?,evaluation_IA_MICROSOFT
+355,Quel est le système d'évaluation ?,evaluation_IA_MICROSOFT
+356,Il y a t il un système de compétences ?,evaluation_IA_MICROSOFT
+357,Quel est le système d'évaluation ?,evaluation_IA_MICROSOFT
+358,Comment se passe la validation du diplôme ?,evaluation_IA_MICROSOFT
+359,Les élèves sont ils évalués ?,evaluation_IA_MICROSOFT
+360,Est-ce qu'on a des notes ?,evaluation_IA_MICROSOFT
+361,Est-ce qu'on sera noté?,evaluation_IA_MICROSOFT
+362,Quel est l'intitulé de la certification ?,certification_IA_MICROSOFT
+363,Quel est le niveau du diplôme obtenu ?,certification_IA_MICROSOFT
+364,Quel est le type de diplôme obtenu ?,certification_IA_MICROSOFT
+365,A quel métier prépare cette formation?,certification_IA_MICROSOFT
+366,Travaille-t-on sur Microsoft Azure ?,certification_IA_MICROSOFT
+367,Quelles sont les certifications passées,certification_IA_MICROSOFT
+368,Quels dipomes obtient ont ?,certification_IA_MICROSOFT
+369,Quel diplôme obtient-on ?,certification_IA_MICROSOFT
+370,La formation est-elle certifiante ?,certification_IA_MICROSOFT
+371,La formation est-elle diplômante ?,certification_IA_MICROSOFT
+372,Quel est le niveau d'étude en sortie de la formation ?,certification_IA_MICROSOFT
+373,Est-ce qu'on obtient une licence ?,certification_IA_MICROSOFT
+374,Quelles sont les valeurs de l'école ?,inclusion_IA_MICROSOFT
+375,Quelle est votre vision du handicap ?,inclusion_IA_MICROSOFT
+376,Quelle est votre position vis à vis du handicap ?,inclusion_IA_MICROSOFT
+377,Quel sont les aides et outils mis en place pour les personnes neuroatypiques ?,inclusion_IA_MICROSOFT
+378,"J'ai un handicap, puis-je postuler quand même ?",inclusion_IA_MICROSOFT
+379,Pratiquez-vous l'inclusion? ,inclusion_IA_MICROSOFT
+380,suffit Simplon.co fait une discrimination positive ,inclusion_IA_MICROSOFT
+381,Simlon.co fait une discrimination positive ,inclusion_IA_MICROSOFT
+382,inclusion dans le numérique,inclusion_IA_MICROSOFT
+383,Y a-t-il des hébergements étudiants ?,logement_IA_MICROSOFT
+384,Puis-je avoir une chambre en cité universitaire ?,logement_IA_MICROSOFT
+385,Est-ce qu'il y a des logements étudiants ?,logement_IA_MICROSOFT
+386,Faut-il habiter sur Brest ?,logement_IA_MICROSOFT
+387,Y a-t-il des solutions pour dormir sur Brest ?,logement_IA_MICROSOFT
+388,est-ce qu'un hébergement est proposé?,logement_IA_MICROSOFT
+389,comment puis-je trouver un logement ?,logement_IA_MICROSOFT
+390,proposez vous des colocations?,logement_IA_MICROSOFT
+391,Aurais-je de l'aide pour me loger ?,logement_IA_MICROSOFT
+392,Est ce que je serais logé en Cité U,logement_IA_MICROSOFT
+393,Aurais-je le droit d'être en résidence universitaire?,logement_IA_MICROSOFT
+394,Le contrat en alternance est-il systématique?,alternance_IA_MICROSOFT
+395,Des périodes de stages sont-elles prévues lors de la période intensive?,alternance_IA_MICROSOFT
+396,Comment sont faites les attributions des entreprises ?,alternance_IA_MICROSOFT
+397,Est-on seul dans son entreprise ?,alternance_IA_MICROSOFT
+398,Sommes-nous à plusieurs dans les entreprises ?,alternance_IA_MICROSOFT
+399,rencontrons-nous les entreprises avant le début de la formation ?,alternance_IA_MICROSOFT
+400,"Combien de fois, allons nous en entreprise avant le début de l'alternance?",alternance_IA_MICROSOFT
+401,Le tuteur est-il obligatoirement un expert métier ?,alternance_IA_MICROSOFT
+402,Faut-il chercher son alternance?,alternance_IA_MICROSOFT
+403,Est-ce que c'est dur de trouver son entreprise?,alternance_IA_MICROSOFT
+404,dois-je chercher une entreprise tout seul ?,alternance_IA_MICROSOFT
+405,Comment ça se passe pour l'alternance ?,alternance_IA_MICROSOFT
+406,est ce que je peux choisir mon alternance ?,alternance_IA_MICROSOFT
+407,Les cours sont-ils assurés par les équipes partenaires?,formateurs_IA_MICROSOFT
+408,Des intervenants extérieurs participent-ils au cursus de formation?,formateurs_IA_MICROSOFT
+409,Les  intervenants sont-ils des profs de l'ISEN ?,formateurs_IA_MICROSOFT
+410,Est-ce que les formateurs sont un partenariat prof/entreprises?,formateurs_IA_MICROSOFT
+411,Qui sont les formateurs ?,formateurs_IA_MICROSOFT
+412,est ce des cours descendants  ?,formateurs_IA_MICROSOFT
+413,Les entreprises partenaires ont-elles des heures de formation obligatoires?,formateurs_IA_MICROSOFT
+414,Le programme est-il validé ou imposé par les partenaires ?,formateurs_IA_MICROSOFT
+415,Les formateurs sont-ils des personnes de Simplon ou Microsoft,formateurs_IA_MICROSOFT
+416,qui sont les profs?,formateurs_IA_MICROSOFT
+417,les professeurs sont-ils tous des experts IA ?,formateurs_IA_MICROSOFT
+418,les enseignants sont-ils tous des codeurs?,formateurs_IA_MICROSOFT
+419,les profs donnent ils des cours magistraux ?,formateurs_IA_MICROSOFT
+420,Les PC sont-ils fournis dans le cadre de la formation?,materiel_IA_MICROSOFT
+421,Quel matériel dois-je avoir pour suivre la formation?,materiel_IA_MICROSOFT
+422,Faut-il avoir un PC pour suivre la formation?,materiel_IA_MICROSOFT
+423,L'entreprise nous fournit-elle un ordinateur lors de la formation?,materiel_IA_MICROSOFT
+424,Faut-il prévoir l'achat d'un ordinateur et/ou une imprimante?,materiel_IA_MICROSOFT
+425,Le matériel fournit  nous appartient-il?,materiel_IA_MICROSOFT
+426,Un ordinateur est-il indispensable?,materiel_IA_MICROSOFT
+427,Peut-on utiliser son ordinateur personnel pendant la formation?,materiel_IA_MICROSOFT
+428,Est-ce que l'on nous prête un ordinateur le temps de la formation?,materiel_IA_MICROSOFT
+429,La formation a t'elle été maintenue pendant le confinement?,confinement_IA_MICROSOFT
+430,Les cours sont-ils dispensés pendant le confinement?,confinement_IA_MICROSOFT
+431,La pédagogie active est-elle maintenue pendant le confinement?,confinement_IA_MICROSOFT
+432,Le travail en équipe est-il possible à distance?,confinement_IA_MICROSOFT
+433,learning by teaching est-il envisageable pendant le confinement?,confinement_IA_MICROSOFT
+434,L'évaluation des compétences est-elle possible pendant le confinement?,confinement_IA_MICROSOFT
+435,Les contrats de professionnalisation continuent-ils pendant le confinement?,confinement_IA_MICROSOFT
+436,Y'a t'il du présentiel et du distanciel pendant le confinement?,confinement_IA_MICROSOFT
+437,Les partenariats avec les entreprises souffrent-ils du confinement,confinement_IA_MICROSOFT
+438,C'est quoi la pédagogie active?,pédagogie_IA_MICROSOFT
+439,Quelle différence entre pédagogie active et cours descendant?,pédagogie_IA_MICROSOFT
+440,La pédagogie active est-elle accessible à tous?,pédagogie_IA_MICROSOFT
+441,Quel est l'intérêt de la pédagogie active?,pédagogie_IA_MICROSOFT
+442,Quel type d'enseignement est délivré pendant la formation?,pédagogie_IA_MICROSOFT
+443,Quelle est la méthode de formation?,pédagogie_IA_MICROSOFT
+444,C'est quoi une journée de cours typique?,pédagogie_IA_MICROSOFT
+445,Quel est l'objectif de la pédagie active?,pédagogie_IA_MICROSOFT
+446,doit-on faire des recherches,pédagogie_IA_MICROSOFT
+447,quel est le format des cours?,pédagogie_IA_MICROSOFT
+448,comment sont donnés les cours?,pédagogie_IA_MICROSOFT
+449,Quel genre de pédagogie est utilisée?,pédagogie_IA_MICROSOFT
+450,Qui êtes-vous,presentation_IA_MICROSOFT
+451,Quel genre d'école est-ce ?,presentation_IA_MICROSOFT
+452,Qu'est-ce que l'école Microsoft-IA By Simplon ?,presentation_IA_MICROSOFT
+453,Que proposez-vous ?,presentation_IA_MICROSOFT
+454,Quelle genre d'école est Simplon?,presentation_IA_MICROSOFT
+455,Quelle est votre activité?,presentation_IA_MICROSOFT
+456,Que faites-vous?,presentation_IA_MICROSOFT
+457,En quoi consiste votre école?,presentation_IA_MICROSOFT
+458,Expliquez moi ce qu'est Simplon,presentation_IA_MICROSOFT
+459,parlez moi de vous,presentation_IA_MICROSOFT
+460,parlez moi de l'école,presentation_IA_MICROSOFT
+461,Comment se passent les entretiens ?,entretiens_IA_MICROSOFT
+462,Comment sont départagées les candidatures ?,entretiens_IA_MICROSOFT
+463,Qui sont les meilleurs candidats ?,entretiens_IA_MICROSOFT
+464,Qui a le plus de chances d'être admis ?,entretiens_IA_MICROSOFT
+465,en quoi consistent les entretiens?,entretiens_IA_MICROSOFT
+466,comment se passe l'examen d'entrée ?,entretiens_IA_MICROSOFT
+467,y a t  il un test d'entrée ?,entretiens_IA_MICROSOFT
+468,Est ce qu'il y a un test de niveau ?,entretiens_IA_MICROSOFT
+469,est-ce que c'est un concours?,entretiens_IA_MICROSOFT
+470,existe t il un examen pour intégrer l'école ?,entretiens_IA_MICROSOFT
+471,Quels sont les métiers visés par les formations ?,emploi_IA_MICROSOFT
+472,les différents métiers de la formartion? ,emploi_IA_MICROSOFT
+473,Quels sont les métiers qui sont préparés ? ,emploi_IA_MICROSOFT
+474,Les opportunités d'emploi avec une formation ?,emploi_IA_MICROSOFT
+475,a quel poste puis-je prétendre après la formation?,emploi_IA_MICROSOFT
+476,dans quel secteur puis-je me faire recruter?,emploi_IA_MICROSOFT
+477,quel métier pourrais-je faire après?,emploi_IA_MICROSOFT
+478,a quel poste puis-je postuler avec le diplome?,emploi_IA_MICROSOFT
+479,quelles sont les opportunités d'emploi en sortie ?,emploi_IA_MICROSOFT
+480,dev data IA,emploi_IA_MICROSOFT
+481,est-il facile d'obtenir un emploi ?,emploi_IA_MICROSOFT
+482,trouverais-je du travail facilement après la formation?,emploi_IA_MICROSOFT
+483,suis-je garantie de trouver un travail après la formation?,emploi_IA_MICROSOFT
+484,Quelles technologies sont exploitées? ,technologie_IA_MICROSOFT
+485,Quelles technologiques sont utilisées? ,technologie_IA_MICROSOFT
+486,Les différentes technologies,technologie_IA_MICROSOFT
+487,Java,technologie_IA_MICROSOFT
+488,Python,technologie_IA_MICROSOFT
+489,Web,technologie_IA_MICROSOFT
+490,Les langages qui seront vus dans la formation ?,technologie_IA_MICROSOFT
+491,quel système d'exploitation sera utilisé?,technologie_IA_MICROSOFT
+492,quels langages sont enseignés?,technologie_IA_MICROSOFT
+493,quelles techno utilisez vous?,technologie_IA_MICROSOFT
+494,Quels sont les actionnaires principaux? ,actionnaires_IA_MICROSOFT
+495,Quoi sont les principaux actionnaires? ,actionnaires_IA_MICROSOFT
+496,Quels sont les principaux actionnaires des actionnaires? ,actionnaires_IA_MICROSOFT
+497,Quels sont les actionnaires ? ,actionnaires_IA_MICROSOFT
